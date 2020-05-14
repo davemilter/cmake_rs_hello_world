@@ -1,0 +1,14 @@
+[package]
+name = "cmake_test"
+version = "0.1.0"
+edition = "2018"
+
+
+[lib]
+name = "foo"
+crate-type = ["staticlib"]
+
+[dependencies]
+
+[build-dependencies]
+cmake = "0.1.42"
